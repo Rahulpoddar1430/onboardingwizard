@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Store Setup</title>
+    <link rel="stylesheet" href="style5.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <style>
+    body {
+        font-family: 'Poppins';
+    }
+    </style>
+    
+</head>
+<body>
+    <div class="bigcon">
+        <div class="container">
+            <div class="welcome-message">
+                <h1>WELCOME TO YOUR STORE!</h1>
+                <img src="middle.png" alt="Store Icon" class="store-icon">
+                <p id="ptag">We have setup your store with some sample data and default settings. This lets you get a feel of your store and the store manager. Using the steps on the right, you can configure your store with your data and your settings. Click on the first step to start.</p>
+                <p id="ptag">If you have any queries, please contact us on <a href="mailto:support@shoprjsh.in">support@shoprjsh.in</a></p>
+            </div>
+            <div class="setup-steps">
+                   <h2 class="h2tag"> 4 of 7 steps completed</h2>
+                <ul>
+                    <li class="completed">✔ <span>Choose & Customise Theme</span></li>
+                    <li class="completed">✔ <span>Setup Shop Profile & Domain </span></li>
+                    <li class="completed">✔ <span>Setup Categories</span></li>
+                    <li class="completed">✔ <span>Setup Products</span> </li>
+                    <li class="noncompleted">📋 Setup Widgets</li>
+                    <li class="noncompleted">📋 Setup Static Pages</li>
+                    <li class="noncompleted">📋 Choose Locations</li>
+                    <li class="noncompleted">🔴 DONE</li>
+                </ul>
+            </div>
+        </div>
+        <div class="dashboard-header">
+            <h1 id="dash">Dashboard</h1>
+            <div class="date-range">
+                <input type="date" id="start-date" value="2024-05-24">
+                <span>to</span>
+                <input type="date" id="end-date" value="2024-06-23">
+                <button id="go-btn">Go</button>
+            </div>
+        </div>
+        <div class="sumi">
+             <div class="summary-box">
+                 <h2>SUMMARY</h2>
+                <div class="sales-box">
+                   <p class="sales-title">TODAY'S SALES</p>
+                    <p class="sales-amount">Rs. 0.00</p>
+                </div>
+               <div class="sales-box">
+                <p class="sales-title">TOTAL SALES</p>
+                <p class="sales-amount">Rs. 0.00</p>
+               </div>
+              </div>
+          <div class="con">
+                <div class="header">SALES BETWEEN 24 MAY AND 23 JUN</div>
+              <div class="chart">
+                <div class="y-axis">
+                    <div class="y-label">1.0</div>
+                    <div class="y-label">0.5</div>
+                    <div class="y-label">0.0</div>
+                </div>
+                <div class="x-axis">
+                    <div class="line" id="line1"></div>
+                    <div class="line" id="line2"></div>
+                    <div class="line" id="line3"></div>
+                </div>
+              </div>
+            </div>
+        </div>
+            <div class="middle">
+                <div class="current-orders-container">
+                    <div class="current-orders-header">CURRENT ORDERS</div>
+                    <table class="current-orders-table">
+                        <thead>
+                            <tr>
+                                <th>Status</th>
+                                <th>Order ID</th>
+                                <th>Amount</th>
+                                <th>Ordered Date</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Data rows will be inserted here dynamically -->
+                        </tbody>
+                    </table>
+                </div>
+                <div class="conta">
+                    <div class="header">
+                        <h2>TOP 5 SELLING PRODUCTS BETWEEN 24 MAY AND 23 JUN</h2>
+                    </div>
+                    <div class="content">
+                        <p>No data</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+</body>
+</html>

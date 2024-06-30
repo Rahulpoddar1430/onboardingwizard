@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page Clone</title>
+    <link rel="stylesheet" href="style1.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <style>
+    body {
+        font-family: 'Poppins';
+    }
+    </style>
+</head>
+<body>
+    
+    <div class="main">
+        <div class="custom">
+            <h2 id="m">Let's Customize Your Shopnix Store</h2>
+            <h3 id="m">Apply a theme</h3>
+        </div>
+        <div class="container">
+            <div class="card">
+                <img src="grandcoffeeimg.jpg" alt="Bags" class="image">
+                <div class="content">
+                    <h2>Bags <span class="recommended">(recommended)</span></h2>
+                    <button class="choose-button" onclick="selectCard(this)">Choose</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="honey img.jpg" alt="Chic" class="image">
+                <div class="content">
+                    <h2>Chic</h2>
+                    <button class="choose-button" onclick="selectCard(this)">Choose</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="handtimeimg.jpg" alt="Flex" class="image">
+                <div class="content">
+                    <h2>Flex</h2>
+                    <button class="choose-button" onclick="selectCard(this)">Choose</button>
+                </div>
+            </div>
+        </div>
+        <button type="submit" id="next-button">Next</button>
+    </div>
+   
+    
+    <script src="script1.js"></script>
+</body>
+</html>

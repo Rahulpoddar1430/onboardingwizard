@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Your First Product</title>
+    <link rel="stylesheet" href="style2.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+<style>
+body {
+    font-family: 'Poppins';
+}
+</style>
+</head>
+<body>
+        
+    </div>
+    <div class="container">
+      
+        <div class="form-container">
+            <h2 id="m">Let's Customize Your Shopnix Store</h2>
+            <p id="m">Add a Type, Category and Sub-category</p>
+            
+            <div class="form-group">
+                <label for="productType">Add a product type</label>
+                <input type="text" id="productType" required>
+                <span class="error-message" id="productTypeError">Please enter a product type</span>
+            </div>
+            
+            <div class="form-group">
+                <label for="category">Add a category</label>
+                <input type="text" id="category" placeholder="eg - Academic book" required>
+                <span class="error-message" id="categoryError">Please enter a category</span>
+            </div>
+            
+            <div class="form-group">
+                <label for="subCategory">Add a sub-category</label>
+                <input type="text" id="subCategory" placeholder="eg - medical book" required>
+                <span class="error-message" id="subCategoryError">Please enter a sub-category</span>
+            </div>
+            
+            <div class="buttons">
+                <button type="button" id="back-button">Back</button>
+                <button class="next"   onclick="goToPage2()" id=" next-button">Next</button>
+            </div>
+        </div>
+        <div class="display-container">
+            <div id="productPreview">
+                <img id="previewImage" src="img.png" alt="Product Image">
+            </div>
+        </div>
+    </div>
+    <script src="script2.js"></script>
+</body>
+</html>
+
+
